@@ -33,7 +33,7 @@
 
     - name: copying the service file to ans nodes
       copy:
-        dest: /etc/sysytemd/system/springpetclinic.service
+        dest: /etc/systemd/system/springpetclinic.service
         src: springpetclinic.service 
 
     - name: enabiling and starting the service
