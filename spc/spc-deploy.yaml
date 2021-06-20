@@ -37,6 +37,7 @@
         src: springpetclinic.service
     - name: Enable and start spring petclinic
       systemd:
+        daemon_reload: yes 
         name: springpetclinic.service
         enabled: yes
         state: started
