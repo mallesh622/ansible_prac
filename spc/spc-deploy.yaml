@@ -41,6 +41,7 @@
         name: springpetclinic.service
         enabled: yes
         state: started 
+        masked: no 
          
 
 
