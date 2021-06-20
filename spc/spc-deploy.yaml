@@ -28,7 +28,7 @@
       file: 
         path:  /usr/share/springpetclinic/spring-petclinic-2.4.2.jar
         owner: springbootuser
-        mode: 500 
+        mode: '500' 
         state: file 
 
 
