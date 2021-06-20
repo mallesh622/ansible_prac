@@ -29,7 +29,19 @@
         path:  /usr/share/springpetclinic/spring-petclinic-2.4.2.jar
         owner: springbootuser
         mode: '500' 
-        state: file 
+        state: file
+
+    - name: copying the service file to ans nodes
+      copy:
+        src: springpetclinic.service 
+        dest: /etc/sysytemd/system/springpetclinic.service
+
+    - name: enabiling and starting the service
+      systemd: 
+        name: springpetclinic.service
+        state: started 
+        enabled: yes 
+
 
 
 
