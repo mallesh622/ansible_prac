@@ -1,0 +1,10 @@
+192.168.1.11
+
+[webserver]
+web1.qt.com
+web2.qt.com
+
+[dbserver]
+db.qt.com
+db.qt.com
+ 
